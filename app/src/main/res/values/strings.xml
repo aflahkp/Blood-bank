@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Kerala Blood Bank</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_find_donor">Find Donor</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_us">About Us</string>
+    <string-array name="blood_groups">
+        <item>All</item>
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string-array name="blood_groups_only">
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hint_email">Phone</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="hint_name">Name</string>
+    <string name="register">Register</string>
+    <string name="btn_link_to_login">Back to Login</string>
+    <string name="hint_place">Place</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_new_password">Type a new Password</string>
+    <string name="hint_otp">Enter OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="hint_second_phone">Secondary Phone Number</string>
+    <string name="hint_gender">Gender</string>
+    <string name="update">UPDATE</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone">Phone</string>
+    <string name="secondPhone">Second Phone</string>
+    <string name="place">Place</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="edit">Edit</string>
+    <string name="callPrimary">Call 1</string>
+    <string name="callsecondary">Call 2</string>
+    <string name="whatsapp">Chat</string>
+    <string name="donor_info">Donor Information</string>
+    <string name="about_us_data">Government Medical College, Palakkad, also known as Institute of Integrated Medical Science is a medical college established in Palakkad District on 2014 by Government of Kerala, under the management of Kerala State Scheduled Caste Development Department.</string>
+    <string name="posted_by">Posted by</string>
+    <string name="location">Location</string>
+    <string name="postman_number">Requester Phone</string>
+    <string name="due_date">Requirment Date</string>
+    <string name="posted_date">Posted on</string>
+    <string name="callPoster">Call Posted Person</string>
+    <string name="callrequestor">Call Person in Need</string>
+    <string name="whatsappposted">Chat with Posted Person</string>
+    <string name="message">Message</string>
+    <string name="requestor_phone">Requester Phone</string>
+    <string name="post__request">POST REQUEST</string>
+    <string name="requirement_date">Requirement Date</string>
+    <string name="request_info">About Request</string>
+    <string name="new_request">New Request</string>
+    <string name="requests">Requests</string>
+</resources>

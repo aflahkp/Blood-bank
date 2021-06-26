@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="ActionBarActivity" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="actionBarTheme">@style/MyActionBar</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="MyActionBar">
+        <item name="android:titleTextStyle">@style/WhiteText</item>
+        <item name="android:colorForeground">@color/white</item>
+
+    </style>
+
+    <style name="MyButton">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+
+
+
+    <style name="AppTheme.WhiteEditText" parent="@style/AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:colorError" tools:targetApi="o">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+    <style name="WhiteText">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="AppTheme.EditTextError" parent="@style/AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:colorError" tools:targetApi="o">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">12sp</item>
+
+
+    </style>
+
+    <style name="AppTheme.Spinner" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
